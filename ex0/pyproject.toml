@@ -1,0 +1,9 @@
+[project]
+name = "Python-Module-05bis"
+version = "0.1.0"
+description = "pipやpoetryでライブラリをインストールする方法と,要求するライブラリをインストールしたかの確認方法等を学ぶ"
+requires-python = ">=3.10"
+dependencies = ["pandas >= 2.1.0", "numpy >= 1.25.0"]
+
+[tool.poetry]
+package-mode = false
