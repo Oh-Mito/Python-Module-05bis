@@ -1,1 +1,4 @@
 poetry.lock
+*.pdf
+*.pyc
+__pycache__

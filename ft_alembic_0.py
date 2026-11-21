@@ -1,8 +1,12 @@
-from elements import create_fire
+import elements
 
 
 def main() -> None:
-    print(f"{create_fire()}")
+    print(
+        "=== Alembic 0 ===\n"
+        "Using: 'import ...' structure to access elements.py"
+    )
+    print(f"Testing create_fire: {elements.create_fire()}")
 
 
 if __name__ == "__main__":
