@@ -1,4 +1,4 @@
-from alchemy import potions
+from alchemy.potions import strength_potion, healing_potion
 
 
 def main() -> None:
@@ -7,8 +7,8 @@ def main() -> None:
         "Direct access to alchemy/potions.py"
     )
     print(
-        f"Testing strength_potion: {potions.strength_potion()}\n"
-        f"Testing healing_potion: {potions.healing_potion()}"
+        f"Testing strength_potion: {strength_potion()}\n"
+        f"Testing healing_potion: {healing_potion()}"
     )
 
 

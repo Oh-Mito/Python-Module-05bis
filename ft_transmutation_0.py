@@ -1,4 +1,4 @@
-import alchemy
+import alchemy.transmutation.recipes
 
 
 def main() -> None:
@@ -6,9 +6,9 @@ def main() -> None:
         "=== Transmutation 0 ===\n"
         "Using file alchemy/transmutation/recipes.py directly"
     )
-    print(f"Testing lead to gold: {transmutation.recipes.lead_to_gold}")
+    print("Testing lead to gold:"
+          f" {alchemy.transmutation.recipes.lead_to_gold()}")
 
 
 if __name__ == "__main__":
     main()
-
