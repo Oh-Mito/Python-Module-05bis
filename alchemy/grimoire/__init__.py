@@ -1,3 +1,3 @@
-import alchemy.grimoire
+from alchemy.grimoire import light_spellbook
 
-__all__ = ["light_spell_record"]
+__all__ = ["light_spellbook"]
