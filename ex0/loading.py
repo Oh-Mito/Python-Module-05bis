@@ -22,8 +22,8 @@ def main() -> None:
         print("\ninstallation instructions:")
         print("$> pip install -r ex0/requirements.txt")
         print("or")
-        print("$> poetry install\n"
-              "$> poetry run python ex0/loading.py")
+        print("$> poetry install -P ex0\n"
+              "$> poetry -P ex0 run python ex0/loading.py")
 
     else:
         print()

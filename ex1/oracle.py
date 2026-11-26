@@ -27,8 +27,16 @@ def main() -> None:
                 "Default value is 'development'"
             )
             mode = "development"
-        else:
+        elif mode == "development" or mode == "production":
+            if mode == "production":
+                print("[!本番モードです!]")
             print(f"Mode: {mode}")
+        else:
+            print(
+                "[WARNING] unexpected mode\n"
+                "Default value is 'development'"
+            )
+            mode = "development"
 
         db_url = os.getenv("DATABASE_URL")
         if not db_url:
