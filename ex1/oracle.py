@@ -112,7 +112,7 @@ def main() -> None:
         env_content = dotenv_values(env_path)
         os_environ = os.environ
         if env_content.items() <= os_environ.items():
-            print("[INFO] No overwrite detected.")
+            print("[INFO] No overrides detected.")
         else:
             print("[OK] Production overrides available")
 
